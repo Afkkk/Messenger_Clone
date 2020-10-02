@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.app__form{
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 100%;
+  
+  
+}
+
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app__iconButton{
+  flex:0;
+}
+
+.app__input{
+  flex:1;
+  border: 1px solid black; 
+  text-decoration: none;
+  border-radius: 45px 45px;
+}
+.MuiInput-underline:before{
+  border-bottom: none !important;
+}
+.MuiInput-underline:after{
+  border-bottom: none !important;
+}
+.MuiInputBase-input{
+  padding: 6px 13px 7px !important;
+  border-bottom: none !important;
+}
+.app__iconButtonAccount{
+  position: relative ;
+  float: left;
+  left: 0;
+  top: -10px;
+
+  /* width: 80px !important;
+  height: 80px !important; */
+}
+.app__accountCircle{
+  width: 50px !important;
+  height: 50px !important;
+}
+.app__logoImg{
+  height: 60px;
+  width: 60px;
+  position: relative;
+  float:right;
+  right: 10px;
+}
